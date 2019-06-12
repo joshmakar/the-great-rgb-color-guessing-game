@@ -1,6 +1,6 @@
 # The Great RGB Color Guessing Game!
 
-[Demo](https://codepen.io/joshmakar/project/editor/ZRoqwE)
+[Codepen Demo](https://codepen.io/joshmakar/project/full/ZRoqwE)
 
 ## Todo
 * Refactor code.
