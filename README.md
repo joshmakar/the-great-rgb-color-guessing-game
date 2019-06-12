@@ -1,4 +1,4 @@
-# The Great RGB Color Guessing Game
+# The Great RGB Color Guessing Game!
 
 [Demo]: https://codepen.io/joshmakar/project/editor/ZRoqwE
 
