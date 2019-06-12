@@ -1,1 +1,1 @@
-"# the-great-rgb-color-guessing-game" 
+# The Great RGB Color Guessing Game
