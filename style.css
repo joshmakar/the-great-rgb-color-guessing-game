@@ -1,48 +1,48 @@
-html {
+html, body {
   font-size: 16px;
 }
 
 body {
   background-color: #232323;
-  margin: 0;
   font-family: 'Avenir', 'Montserrat', 'Arial';
+  margin: 0;
 }
 
 h1 {
+  background-color: #828282;
   color: #fff;
-  text-align: center;
-  background-color: steelblue;
-  margin: 0;
   font-weight: normal;
-  text-transform: uppercase;
   line-height: 1.1;
+  margin: 0;
   padding: 20px 0;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 button {
-  border: none;
   background-color: transparent;
-  text-transform: uppercase;
-  height: 100%;
-  font-weight: 700;
-  color: steelblue;
-  letter-spacing: 1px;
+  border: none;
+  color: #828282;
   font-size: inherit;
+  font-weight: 700;
+  height: 100%;
+  letter-spacing: 1px;
   outline: none;
+  text-transform: uppercase;
   transition: all 500ms;
-  -webkit-transition: all 500ms;
-  -moz-transition: all 500ms;
+    -moz-transition: all 500ms;
+    -webkit-transition: all 500ms;
 }
 
 button:hover {
+  background-color: #828282;
   color: #fff;
-  background-color: steelblue;
 }
 
 #message {
+  color: #828282;
   display: inline-block;
   width: 20%;
-  color: steelblue;
 }
 
 #colorDisplay {
@@ -52,29 +52,45 @@ button:hover {
 }
 
 #container {
-  max-width: 600px;
   margin: 20px auto;
+  max-width: 600px;
 }
 
 #stripe {
   background-color: #fff;
+  display: flex;
+    justify-content: center;
   height: 30px;
   text-align: center;
 }
 
+.container {
+  display: flex;
+    align-items: center;
+    justify-content: space-between;
+  height: 100%;
+  max-width: 600px;
+  width: 100%;
+}
+
+.mode-select-buttons {
+  height: 100%;
+}
+
 .square {
-  width: 30%;
   background: purple;
-  padding-bottom: 30%;
-  float: left;
-  margin: 1.66%;
+  border: 1px solid #000;
   border-radius: 40px 40px 40px 0;
+  float: left;
+  margin: 1.5%;
+  padding-bottom: 30%;
   transition: background-color 500ms;
-  -webkit-transition: background-color 500ms;
-  -moz-transition: background-color 500ms;
+    -moz-transition: background-color 500ms;
+    -webkit-transition: background-color 500ms;
+  width: 30%;
 }
 
 .selected {
-  background-color: steelblue;
+  background-color: #828282;
   color: #fff;
 }
