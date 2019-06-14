@@ -81,6 +81,7 @@ button:hover {
   background: purple;
   border: 1px solid #000;
   border-radius: 40px 40px 40px 0;
+  box-sizing: border-box;
   float: left;
   margin: 1.5%;
   padding-bottom: 30%;
