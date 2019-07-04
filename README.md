@@ -5,6 +5,10 @@
 ## Todo
 * Refactor code.
 
+## Screenshots
+
+![Screenshot of the RGB Color Guessing Game](screenshot.jpg?raw=true "Screenshot of the RGB Color Guessing Game")
+
 ## Git Tips.
 
 ### Preparing to Merge
